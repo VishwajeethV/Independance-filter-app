@@ -7,4 +7,20 @@ h3
 {
   background-color:red;
 }
+h1
+{
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration-color: blueviolet;
+  background-color: lightskyblue;
+  text-decoration-style: wavy;
+  width: 100%;
+  text-align: center;
+}
 
+p
+{
+  background-color: magenta;
+  text-emphasis-color: black;
+  font-family: sans-serif;
+}
