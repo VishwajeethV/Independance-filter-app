@@ -6,11 +6,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 
@@ -21,33 +28,106 @@
   <h3 class="btn btn-info">Independance day Filter</h3>
  <br>
  <br>
-
- <p>Independence Day is celebrated annually on 15 August as a national holiday in India 
-   commemorating the nation's independence from the United Kingdom on 15 August 1947, the
-    day when the provisions of the 1947 Indian Independence Act, which transferred legislative
-     sovereignty to the Indian Constituent Assembly, came into effect. India retained 
-     King George VI as head of state until its transition to a full republic, 
-     when the nation adopted the Constitution of India on 26 January 1950
-      (celebrated as Indian Republic Day) and replaced the dominion prefix,
-       Dominion of India, with the enactment of the sovereign law Constitution of India.
-        India attained independence following the Independence Movement noted for largely
-         non-violent resistance and civil disobedience.</p>
+        
+    <section id="welcome">
+      <img src="independence.webp" class="profile img-circle">
+      <h1>Happy independence day 
+          </h1>
+      <h2>Independence is a condition of a person, nation, country, or state in which its residents and population, or some portion thereof, exercise self-government, and usually sovereignty, over the territory. The opposite of independence is the status of a dependent territory.</h2>
+  </section>
 
 
- 
- <iframe src="https://vishwajeethv.github.io/Independance-filter-cap/" width="500px" height="200px"></iframe>
- <iframe src="https://vishwajeethv.github.io/Independance-filter-mask/" width="500px" height="200px"></iframe>
+  <section id="bio">
+      <h2 class="btn btn-primary">Independence of India</h2>
+      <div class="line"></div>
+      <p>Independence Day is celebrated annually on 15 August as a national holiday 
+        in India commemorating the nation's independence from the United Kingdom on 15 August 1947, the 
+        day when the provisions of the Indian Independence Act 1947, which transferred legislative 
+        sovereignty to the Indian Constituent Assembly, came into effect. India retained King George VI
+         as head of state until its transition to a full republic, when the nation adopted the Constitution
+          of India on 26 January 1950 (celebrated as Indian Republic Day) and replaced the dominion prefix,
+           Dominion of India, with the enactment of the sovereign law Constitution of India. India attained
+            independence following the Independence Movement noted for largely non-violent resistance and
+             civil disobedience.
+
+Independence coincided with the partition of India, in which British India was divided along religious lines
+ into the Dominions of India and Pakistan; the partition was accompanied by violent riots and mass casualties,
+  and the displacement of nearly 15 million people due to religious violence. On 15 August 1947, the first
+   Prime Minister of India, Jawaharlal Nehru raised the Indian national flag above the Lahori Gate of the
+    Red Fort in Delhi. On each subsequent Independence Day, the incumbent Prime Minister customarily raises
+     the flag and gives an address to the nation. The entire event is broadcast by Doordarshan, India's
+      national broadcaster, and usually begins with the shehnai music of Ustad Bismillah Khan.
+
+Independence Day is observed throughout India with flag-hoisting ceremonies, parades and cultural events.
+ It is a national holiday.</p>
+  </section>
+
+         <br>
+         <br>
+
+        <h3 class="btn btn-success">Check out these filters that I made.</h3>
+
+        <br>
+        <br>
+
+         <button onclick="cap()" class="btn btn-danger" id="Cap">Cap Filter</button>
+         <button onclick="mask()" class="btn btn-info" id="Cap">Mask Filter</button>
+
+         <br>
+         <br>
+         <br>
+
+         <hr>
+         <section id="videos">
+             <h2 class="btn btn-warning">Check out these awesome animations and stories by others</h2>
+             <div class="line"></div>
+             <br>
+             <iframe width="853" height="480" src="https://www.youtube.com/embed/dpVvXIDJWQ0" title="Amway's Independence day video by Webcontxt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <br>
+             <br>
+     
+             <iframe width="853" height="480" src="https://www.youtube.com/embed/-sw19FyG2oY" title="The Story of Indian Independence - Short Film by Unacademy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
+             <br>
+             <br>
+             
+             <iframe width="875" height="340" src="https://www.youtube.com/embed/OmV2IIm5V8M" title="75th independence day 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
+             <br>
+             <br>
+             
+             <iframe width="853" height="480" src="https://www.youtube.com/embed/OlUizjotBxc" title="India 75th Independence Day | Free Independence Day Animation HD & 4K Quality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <br>
+             <br>
+             
+         </section>
+         <br>
+         <hr>
+         <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <button onclick="feedback()" class="btn btn-info">Give a feedback!</button>
  <br>
  <br>
- <iframe src="https://vishwajeethv.github.io/Feedback-for-independence-filter/" width="500px" height="200px"></iframe>
-<br>
-<br>
+ <br>
+ <br>
+ <br>
+ <br>
 
 </center>
-<h1>Created by Whitehat student V Vishwajeeth</h1>
+
+
 
 <script src="main.js"></script>
 </body>
+
+<footer>
+  <h1>Created by Whitehat student V Vishwajeeth</h1>
+  </footer>
 
 </html>
 
